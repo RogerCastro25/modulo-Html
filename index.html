@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=ta, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th, td {
+            border: 1px solid black;
+        }
+        tfoot{
+            background-color:cyan;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>produto</th>
+                <th>quantidade</th>
+                <th>preço</th>
+                <th>black friday</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>produto</td>
+                <td>2</td>
+                <td>5$</td>
+                <td rowspan="2">sim</td>
+            </tr>
+            <tr>
+                <td>produto</td>
+                <td>4</td>
+                <td>8$</td>
+                
+            </tr>
+            <tr>
+                <td>produto</td>
+                <td>5</td>
+                <td>10$</td>
+                <td>não</td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="3">Total</td>
+                    <td>23$</td>
+                </tr>
+            </tfoot>
+        </tbody>
+    </table>
+</body>
+</html>
